@@ -1,0 +1,72 @@
+{
+  "filter": "absolute",
+  "page": 1,
+  "page_count": 1,
+  "station_count": 4,
+  "stations": [
+    {
+      "id": "absolute_radio",
+      "name": "Absolute Radio",
+      "filters": [
+        "absolute"
+      ],
+      "url": "http://stream-ar.planetradio.co.uk/absoluteradiohigh.aac??direct=true&aw_0_1st.playerid=BMUK_Airable&aw_0_1st.skey=6778249992&aw_0_1st.bauer_loggedin=true%20#EXTINF:0,Absolute%2080s",
+      "codec": "AAC",
+      "bitrate": 127,
+      "homepage": "https://www.hellorayo.co.uk/absolute-radio",
+      "favicon": "https://www.radioportal.ecatolico.com/images/stations/absoluteradio.webp",
+      "state": "",
+      "tags": "adult contemporary",
+      "stationuuid": "942218e4-32f2-4131-8a73-e3432a8cf4d0",
+      "logo": "/logos/default_station.png"
+    },
+    {
+      "id": "absolute_radio_10s",
+      "name": "Absolute Radio 10s",
+      "filters": [
+        "absolute"
+      ],
+      "url": "https://stream-ar.hellorayo.co.uk/absolute10s.aac?direct=true&aw_0_1st.skey=1602676850&aw_0_awz.listenerid=~LSID~&aw_0_1st.platform=~PLATFORM~&aw_0_1st.playerid=~PLAYER_ID~&aw_0_awz.appVers=~APPVERSION~&aw_0_1st.bauer_preroll=~REQUEST_PREROLL~&aw_0_1st.in_car=~IN_CAR~&lat=~LAT~&lon=~LONG~&aw_0_req.userConsentV2=~TCSTRING~&=&&___cb=850509090209086",
+      "codec": "AAC+",
+      "bitrate": 48,
+      "homepage": "https://radioplayer.planetradio.co.uk/ab1",
+      "favicon": "https://radioplayer.planetradio.co.uk/assets/favicon.png",
+      "state": "",
+      "tags": "10s,pop",
+      "stationuuid": "18853cb8-0c81-4bb8-959c-545c115af7d7",
+      "logo": "/logos/default_station.png"
+    },
+    {
+      "id": "absolute_radio_80s",
+      "name": "Absolute Radio 80s",
+      "filters": [
+        "absolute"
+      ],
+      "url": "https://stream-ar.hellorayo.co.uk/absolute80shigh.aac?aw_0_1st.skey=1602676850&direct=true&rp_source=1",
+      "codec": "AAC",
+      "bitrate": 128,
+      "homepage": "https://www.hellorayo.co.uk/absolute-80s",
+      "favicon": "https://media.bauerradio.com/image/upload/c_crop,g_custom/v1717682143/brand_manager/stations/d8fpii0yfv7fimdhxqp1.png",
+      "state": "West Midlands",
+      "tags": "80s",
+      "stationuuid": "c6c204d3-3ffd-4e85-b0f9-29bf6de7ddf4",
+      "logo": "/logos/default_station.png"
+    },
+    {
+      "id": "absolute_radio_90s",
+      "name": "Absolute Radio 90s",
+      "filters": [
+        "absolute"
+      ],
+      "url": "http://stream-ar.planetradio.co.uk/absolute90shigh.aac?direct=true&aw_0_1st.playerid=BMUK_Airable&aw_0_1st.skey=6778249992&aw_0_1st.bauer_loggedin=true",
+      "codec": "AAC",
+      "bitrate": 128,
+      "homepage": "https://www.hellorayo.co.uk/absolute-radio-90s",
+      "favicon": "https://media.bauerradio.com/image/upload/c_crop,g_custom/v1678796943/brand_manager/stations/ptydn13uvtcw7aa0t3cx.png",
+      "state": "",
+      "tags": "90s radio",
+      "stationuuid": "7f7e3c30-08f0-4f52-a0a0-653d5a184800",
+      "logo": "/logos/default_station.png"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "My_Library")(type "KiCad")(uri "${KIPRJMOD}/My_Library/Internet_Radio.kicad_sym")(options "")(descr "Internet Radio project symbols"))
+)

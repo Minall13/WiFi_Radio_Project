@@ -1,0 +1,42 @@
+# --------------------------------------------------
+# macOS
+# --------------------------------------------------
+.DS_Store
+
+# --------------------------------------------------
+# Build artefacts
+# --------------------------------------------------
+build/
+*.bin
+
+# --------------------------------------------------
+# Python virtual environment
+# --------------------------------------------------
+.venv/
+
+# --------------------------------------------------
+# Local font archive (not part of the project)
+# --------------------------------------------------
+Font Archive/
+
+# --------------------------------------------------
+# Station Library Builder generated files
+# --------------------------------------------------
+tools/Station_Library_Builder/output/
+tools/Station_Library_Builder/__pycache__/
+*.pyc
+
+# --------------------------------------------------
+# Icon Builder generated files
+# --------------------------------------------------
+tools/Icon_Builder/output/
+# Keep the legitimate source icon directory despite the global macOS "Icon?" rule
+!tools/Icon_Builder/icons/
+!tools/Icon_Builder/icons/**
+
+# --------------------------------------------------
+# KiCad
+# --------------------------------------------------
+**/.history/
+*.kicad_prl
+*.lck

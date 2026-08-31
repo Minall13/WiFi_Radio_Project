@@ -1,0 +1,104 @@
+{
+  "filter": "capital",
+  "page": 1,
+  "page_count": 1,
+  "station_count": 6,
+  "stations": [
+    {
+      "id": "capital",
+      "name": "Capital",
+      "filters": [
+        "capital"
+      ],
+      "url": "https://media-ssl.musicradio.com/CapitalMP3",
+      "codec": "MP3",
+      "bitrate": 128,
+      "homepage": "https://capitalfm.com/",
+      "favicon": "",
+      "state": "",
+      "tags": "",
+      "stationuuid": "038bfc04-cebb-4fc7-ac13-823b83c8a9d9",
+      "logo": "/logos/default_station.png"
+    },
+    {
+      "id": "capital_anthems",
+      "name": "Capital Anthems",
+      "filters": [
+        "capital"
+      ],
+      "url": "https://media-ssl.musicradio.com/CapitalAnthemsMP3",
+      "codec": "MP3",
+      "bitrate": 128,
+      "homepage": "https://www.globalplayer.com/live/capitalanthems/uk/",
+      "favicon": "https://cdn-profiles.tunein.com/s333271/images/logod.jpg",
+      "state": "London",
+      "tags": "capital,dance,england,europe,global radio,london,moi merino,music,pop,pop music,pop rock,radio,uk,united kingdom,youth",
+      "stationuuid": "72ad8536-729c-41db-828a-48c0c03dc44a",
+      "logo": "/logos/default_station.png"
+    },
+    {
+      "id": "capital_chill",
+      "name": "Capital Chill",
+      "filters": [
+        "capital"
+      ],
+      "url": "https://media-ssl.musicradio.com/CapitalChill",
+      "codec": "AAC",
+      "bitrate": 48,
+      "homepage": "https://capitalchill.co.uk/",
+      "favicon": "",
+      "state": "",
+      "tags": "chill,chilled",
+      "stationuuid": "dfaf9dd9-6705-494d-bf96-ce7fbdbba021",
+      "logo": "/logos/default_station.png"
+    },
+    {
+      "id": "capital_dance",
+      "name": "Capital Dance",
+      "filters": [
+        "capital"
+      ],
+      "url": "https://icecast.thisisdax.com/CapitalDanceMP3",
+      "codec": "MP3",
+      "bitrate": 128,
+      "homepage": "https://www.capitaldance.com/",
+      "favicon": "https://www.capitaldance.com/assets_v4r/capitaldance/img/favicon-196x196.png",
+      "state": "",
+      "tags": "",
+      "stationuuid": "df3607fb-311d-43b1-bd0c-98d91a4f2df4",
+      "logo": "/logos/default_station.png"
+    },
+    {
+      "id": "capital_xtra",
+      "name": "Capital XTRA",
+      "filters": [
+        "capital"
+      ],
+      "url": "http://media-the.musicradio.com/CapitalXTRALondonMP3",
+      "codec": "MP3",
+      "bitrate": 128,
+      "homepage": "https://www.capitalfm.com/",
+      "favicon": "https://www.capitalfm.com/assets_v4r/capital/img/favicon-196x196.png",
+      "state": "",
+      "tags": "",
+      "stationuuid": "11d4d77d-603c-43b5-b9a3-9f7deb75c8da",
+      "logo": "/logos/default_station.png"
+    },
+    {
+      "id": "capital_xtra_reloaded",
+      "name": "Capital XTRA Reloaded",
+      "filters": [
+        "capital"
+      ],
+      "url": "https://media-ice.musicradio.com/CapitalXTRAReloadedMP3",
+      "codec": "MP3",
+      "bitrate": 128,
+      "homepage": "https://www.capitalxtra.com/reloaded/",
+      "favicon": "",
+      "state": "",
+      "tags": "non-stop old skool & anthems",
+      "stationuuid": "10ceb226-550d-41ce-84e9-df7f33729c84",
+      "logo": "/logos/default_station.png"
+    }
+  ]
+}

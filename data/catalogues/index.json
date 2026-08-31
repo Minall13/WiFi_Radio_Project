@@ -1,0 +1,81 @@
+{
+  "catalogue_version": "2026-07-26",
+  "build_timestamp": "2026-07-26T14:04:09Z",
+  "tool_version": "1.0.2",
+  "country": "GB",
+  "page_size": 80,
+  "filters": {
+    "bbc": {
+      "label": "BBC",
+      "source": "littlefs",
+      "station_count": 10,
+      "page_count": 1,
+      "page_size": 80,
+      "path": "/catalogues/bbc_%03d.json"
+    },
+    "absolute": {
+      "label": "Absolute",
+      "source": "littlefs",
+      "station_count": 4,
+      "page_count": 1,
+      "page_size": 80,
+      "path": "/catalogues/absolute_%03d.json"
+    },
+    "virgin": {
+      "label": "Virgin",
+      "source": "littlefs",
+      "station_count": 3,
+      "page_count": 1,
+      "page_size": 80,
+      "path": "/catalogues/virgin_%03d.json"
+    },
+    "capital": {
+      "label": "Capital",
+      "source": "littlefs",
+      "station_count": 6,
+      "page_count": 1,
+      "page_size": 80,
+      "path": "/catalogues/capital_%03d.json"
+    },
+    "heart": {
+      "label": "Heart",
+      "source": "littlefs",
+      "station_count": 7,
+      "page_count": 1,
+      "page_size": 80,
+      "path": "/catalogues/heart_%03d.json"
+    },
+    "kiss": {
+      "label": "Kiss",
+      "source": "littlefs",
+      "station_count": 5,
+      "page_count": 1,
+      "page_size": 80,
+      "path": "/catalogues/kiss_%03d.json"
+    },
+    "rock": {
+      "label": "Rock",
+      "source": "littlefs",
+      "station_count": 7,
+      "page_count": 1,
+      "page_size": 80,
+      "path": "/catalogues/rock_%03d.json"
+    },
+    "talk": {
+      "label": "Talk",
+      "source": "littlefs",
+      "station_count": 8,
+      "page_count": 1,
+      "page_size": 80,
+      "path": "/catalogues/talk_%03d.json"
+    },
+    "all": {
+      "label": "All",
+      "source": "littlefs",
+      "station_count": 69,
+      "page_count": 1,
+      "page_size": 80,
+      "path": "/catalogues/all_%03d.json"
+    }
+  }
+}

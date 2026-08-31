@@ -1,0 +1,738 @@
+{
+  "version": 1,
+  "description": "Curated station definitions for the Internet Radio Project",
+  "country": "GB",
+  "bbc_separate": true,
+  "stations": [
+    {
+      "id": "absolute_radio",
+      "name": "Absolute Radio",
+      "filters": [
+        "absolute"
+      ],
+      "required": true,
+      "aliases": [
+        "Absolute Radio"
+      ]
+    },
+    {
+      "id": "absolute_radio_80s",
+      "name": "Absolute Radio 80s",
+      "filters": [
+        "absolute"
+      ],
+      "required": true,
+      "aliases": [
+        "Absolute Radio 80s"
+      ]
+    },
+    {
+      "id": "absolute_radio_90s",
+      "name": "Absolute Radio 90s",
+      "filters": [
+        "absolute"
+      ],
+      "required": true,
+      "aliases": [
+        "Absolute Radio 90s"
+      ]
+    },
+    {
+      "id": "absolute_radio_10s",
+      "name": "Absolute Radio 10s",
+      "filters": [
+        "absolute"
+      ],
+      "required": true,
+      "aliases": [
+        "Absolute Radio 10s"
+      ]
+    },
+    {
+      "id": "boom_radio",
+      "name": "Boom Radio",
+      "filters": [],
+      "required": true,
+      "aliases": [
+        "Boom Radio",
+        "Boom Radio UK"
+      ]
+    },
+    {
+      "id": "boom_radio_light",
+      "name": "Boom Radio Light",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Boom Radio Light"
+      ]
+    },
+    {
+      "id": "capital",
+      "name": "Capital",
+      "filters": [
+        "capital"
+      ],
+      "required": true,
+      "aliases": [
+        "Capital UK",
+        "CAPITAL - The UK's No.1 Hit Music Station",
+        "Capital FM London"
+      ]
+    },
+    {
+      "id": "capital_anthems",
+      "name": "Capital Anthems",
+      "filters": [
+        "capital"
+      ],
+      "required": false,
+      "aliases": [
+        "Capital Anthems",
+        "CAPITAL ANTHEMS: The Songs Capital Made Famous"
+      ]
+    },
+    {
+      "id": "capital_dance",
+      "name": "Capital Dance",
+      "filters": [
+        "capital"
+      ],
+      "required": false,
+      "aliases": [
+        "Capital Dance",
+        "CAPITAL DANCE: The UK's Official Dance Station"
+      ]
+    },
+    {
+      "id": "capital_chill",
+      "name": "Capital Chill",
+      "filters": [
+        "capital"
+      ],
+      "required": false,
+      "aliases": [
+        "Capital Chill"
+      ]
+    },
+    {
+      "id": "capital_xtra",
+      "name": "Capital XTRA",
+      "filters": [
+        "capital"
+      ],
+      "required": true,
+      "aliases": [
+        "Capital XTRA"
+      ]
+    },
+    {
+      "id": "capital_xtra_reloaded",
+      "name": "Capital XTRA Reloaded",
+      "filters": [
+        "capital"
+      ],
+      "required": false,
+      "aliases": [
+        "Capital Xtra Reloaded"
+      ]
+    },
+    {
+      "id": "classic_fm",
+      "name": "Classic FM",
+      "filters": [],
+      "required": true,
+      "aliases": [
+        "Classic FM",
+        "Classic FM UK",
+        "Classic FM (UK)"
+      ]
+    },
+    {
+      "id": "classic_fm_relax",
+      "name": "Classic FM Relax",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Classic FM Relax"
+      ]
+    },
+    {
+      "id": "classic_fm_calm",
+      "name": "Classic FM Calm",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Classic FM Calm"
+      ]
+    },
+    {
+      "id": "classic_fm_movies",
+      "name": "Classic FM Movies",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Classic FM Movies",
+        "Classic FM at the Movies"
+      ]
+    },
+    {
+      "id": "classic_fm_hall_of_fame",
+      "name": "Classic FM Hall of Fame",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Classic FM Hall of Fame"
+      ]
+    },
+    {
+      "id": "gb_news",
+      "name": "GB News",
+      "filters": [
+        "talk"
+      ],
+      "required": true,
+      "aliases": [
+        "GB News",
+        "gb news",
+        "GB News (UK) 48k eAAC+"
+      ]
+    },
+    {
+      "id": "greatest_hits_radio",
+      "name": "Greatest Hits Radio",
+      "filters": [],
+      "required": true,
+      "aliases": [
+        "Greatest Hits Radio"
+      ]
+    },
+    {
+      "id": "greatest_hits_radio_60s",
+      "name": "Greatest Hits Radio 60s",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Greatest Hits Radio 60s"
+      ]
+    },
+    {
+      "id": "greatest_hits_radio_70s",
+      "name": "Greatest Hits Radio 70s",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Greatest Hits Radio 70s"
+      ]
+    },
+    {
+      "id": "greatest_hits_radio_80s",
+      "name": "Greatest Hits Radio 80s",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Greatest Hits Radio 80s"
+      ]
+    },
+    {
+      "id": "heart",
+      "name": "Heart",
+      "filters": [
+        "heart"
+      ],
+      "required": true,
+      "aliases": [
+        "Heart",
+        "Heart FM",
+        "Heart FM London",
+        "Heart London 106.2 [AAC]"
+      ]
+    },
+    {
+      "id": "heart_70s",
+      "name": "Heart 70s",
+      "filters": [
+        "heart"
+      ],
+      "required": false,
+      "aliases": [
+        "Heart 70s",
+        "Heart 70's"
+      ]
+    },
+    {
+      "id": "heart_80s",
+      "name": "Heart 80s",
+      "filters": [
+        "heart"
+      ],
+      "required": true,
+      "aliases": [
+        "Heart 80s"
+      ]
+    },
+    {
+      "id": "heart_90s",
+      "name": "Heart 90s",
+      "filters": [
+        "heart"
+      ],
+      "required": false,
+      "aliases": [
+        "Heart 90s"
+      ]
+    },
+    {
+      "id": "heart_00s",
+      "name": "Heart 00s",
+      "filters": [
+        "heart"
+      ],
+      "required": false,
+      "aliases": [
+        "Heart 00s"
+      ]
+    },
+    {
+      "id": "heart_10s",
+      "name": "Heart 10s",
+      "filters": [
+        "heart"
+      ],
+      "required": false,
+      "aliases": [
+        "Heart 10s"
+      ]
+    },
+    {
+      "id": "heart_dance",
+      "name": "Heart Dance",
+      "filters": [
+        "heart"
+      ],
+      "required": false,
+      "aliases": [
+        "Heart Dance"
+      ]
+    },
+    {
+      "id": "kerrang_radio",
+      "name": "Kerrang! Radio",
+      "filters": [
+        "rock"
+      ],
+      "required": true,
+      "aliases": [
+        "Kerrang! Radio"
+      ]
+    },
+    {
+      "id": "kiss",
+      "name": "KISS",
+      "filters": [
+        "kiss"
+      ],
+      "required": true,
+      "aliases": [
+        "KISS UK",
+        "Kiss UK",
+        "KISS - The Best Vibes & Energy"
+      ]
+    },
+    {
+      "id": "kiss_dance",
+      "name": "KISS Dance",
+      "filters": [
+        "kiss"
+      ],
+      "required": false,
+      "aliases": [
+        "KISS DANCE: The Biggest Dance Anthems 24/7"
+      ]
+    },
+    {
+      "id": "kiss_xtra",
+      "name": "KISS XTRA",
+      "filters": [
+        "kiss"
+      ],
+      "required": false,
+      "aliases": [
+        "KISS XTRA: Black Music & Culture"
+      ]
+    },
+    {
+      "id": "kisstory",
+      "name": "KISSTORY",
+      "filters": [
+        "kiss"
+      ],
+      "required": true,
+      "aliases": [
+        "KISSTORY",
+        "KISSTORY: Non-Stop Old Skool & Anthems"
+      ]
+    },
+    {
+      "id": "kisstory_rnb",
+      "name": "KISSTORY R&B",
+      "filters": [
+        "kiss"
+      ],
+      "required": false,
+      "aliases": [
+        "KISSTORY R&B: The Hottest R&B tracks from KISSTORY"
+      ]
+    },
+    {
+      "id": "lbc",
+      "name": "LBC",
+      "filters": [
+        "talk"
+      ],
+      "required": true,
+      "aliases": [
+        "LBC UK",
+        "LBC Radio",
+        "Lbc"
+      ]
+    },
+    {
+      "id": "lbc_news",
+      "name": "LBC News",
+      "filters": [
+        "talk"
+      ],
+      "required": true,
+      "aliases": [
+        "LBC News",
+        "LBC London News"
+      ]
+    },
+    {
+      "id": "magic_radio",
+      "name": "Magic Radio",
+      "filters": [],
+      "required": true,
+      "aliases": [
+        "Magic Radio UK",
+        "Magic FM London"
+      ]
+    },
+    {
+      "id": "magic_classical",
+      "name": "Magic Classical",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Magic Classical"
+      ]
+    },
+    {
+      "id": "magic_musicals",
+      "name": "Magic Musicals",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Magic Musicals"
+      ]
+    },
+    {
+      "id": "magic_soul",
+      "name": "Magic Soul",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Magic Soul"
+      ]
+    },
+    {
+      "id": "nation_radio",
+      "name": "Nation Radio",
+      "filters": [],
+      "required": true,
+      "aliases": [
+        "Nation Radio"
+      ]
+    },
+    {
+      "id": "nation_radio_80s",
+      "name": "Nation Radio 80s",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Nation Radio 80s"
+      ]
+    },
+    {
+      "id": "nation_radio_scotland",
+      "name": "Nation Radio Scotland",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Nation Radio Scotland"
+      ]
+    },
+    {
+      "id": "nation_radio_wales",
+      "name": "Nation Radio Wales",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Nation Radio Wales"
+      ]
+    },
+    {
+      "id": "planet_rock",
+      "name": "Planet Rock",
+      "filters": [
+        "rock"
+      ],
+      "required": true,
+      "aliases": [
+        "PLANET ROCK: Where Rock Lives"
+      ]
+    },
+    {
+      "id": "radio_x",
+      "name": "Radio X",
+      "filters": [
+        "rock"
+      ],
+      "required": true,
+      "aliases": [
+        "Radio X",
+        "Radio X London (MP3)"
+      ]
+    },
+    {
+      "id": "radio_x_00s",
+      "name": "Radio X 00s",
+      "filters": [
+        "rock"
+      ],
+      "required": false,
+      "aliases": [
+        "Radio X 00s"
+      ]
+    },
+    {
+      "id": "radio_x_90s",
+      "name": "Radio X 90s",
+      "filters": [
+        "rock"
+      ],
+      "required": false,
+      "aliases": [
+        "Radio X 90s"
+      ]
+    },
+    {
+      "id": "radio_x_chilled",
+      "name": "Radio X Chilled",
+      "filters": [
+        "rock"
+      ],
+      "required": false,
+      "aliases": [
+        "Radio X Chilled"
+      ]
+    },
+    {
+      "id": "radio_x_classic_rock",
+      "name": "Radio X Classic Rock",
+      "filters": [
+        "rock"
+      ],
+      "required": false,
+      "aliases": [
+        "Radio X Classic Rock"
+      ]
+    },
+    {
+      "id": "smooth_radio",
+      "name": "Smooth Radio",
+      "filters": [],
+      "required": true,
+      "aliases": [
+        "Smooth Radio",
+        "Smooth Radio London 102.2"
+      ]
+    },
+    {
+      "id": "smooth_80s",
+      "name": "Smooth 80s",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Smooth 80s"
+      ]
+    },
+    {
+      "id": "smooth_chill",
+      "name": "Smooth Chill",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Smooth Chill",
+        "Smooth Chill (UK)"
+      ]
+    },
+    {
+      "id": "smooth_country",
+      "name": "Smooth Country",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Smooth Country"
+      ]
+    },
+    {
+      "id": "smooth_relax",
+      "name": "Smooth Relax",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Smooth Relax"
+      ]
+    },
+    {
+      "id": "smooth_soul",
+      "name": "Smooth Soul",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Smooth Soul"
+      ]
+    },
+    {
+      "id": "talksport",
+      "name": "talkSPORT",
+      "filters": [
+        "talk"
+      ],
+      "required": true,
+      "aliases": [
+        "talkSPORT",
+        "TalkSPORT"
+      ]
+    },
+    {
+      "id": "talksport_2",
+      "name": "talkSPORT 2",
+      "filters": [
+        "talk"
+      ],
+      "required": true,
+      "aliases": [
+        "talkSPORT 2"
+      ]
+    },
+    {
+      "id": "times_radio",
+      "name": "Times Radio",
+      "filters": [
+        "talk"
+      ],
+      "required": true,
+      "aliases": [
+        "Times Radio",
+        "Times Radio UK",
+        "Times Radio (UK) 48k AAC"
+      ]
+    },
+    {
+      "id": "news_radio_uk",
+      "name": "News Radio UK",
+      "filters": [
+        "talk"
+      ],
+      "required": false,
+      "aliases": [
+        "News Radio UK"
+      ]
+    },
+    {
+      "id": "virgin_radio_uk",
+      "name": "Virgin Radio UK",
+      "filters": [
+        "virgin"
+      ],
+      "required": true,
+      "aliases": [
+        "Virgin Radio UK",
+        "Virgin Radio",
+        "VIRGIN RADIO UK: Rock‘n’Roll Radio From The Top Of The Tower"
+      ]
+    },
+    {
+      "id": "virgin_radio_anthems",
+      "name": "Virgin Radio Anthems",
+      "filters": [
+        "virgin"
+      ],
+      "required": true,
+      "aliases": [
+        "Virgin Radio Anthems"
+      ]
+    },
+    {
+      "id": "virgin_radio_chilled",
+      "name": "Virgin Radio Chilled",
+      "filters": [
+        "virgin"
+      ],
+      "required": false,
+      "aliases": [
+        "Virgin Radio Chilled"
+      ]
+    },
+    {
+      "id": "jazz_london_radio",
+      "name": "Jazz London Radio",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Jazz London Radio",
+        "Jazz London radio"
+      ]
+    },
+    {
+      "id": "jfsr",
+      "name": "JFSR",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "JFSR - Jazz Funk Soul Radio"
+      ]
+    },
+    {
+      "id": "jazz_funk_soul_radio",
+      "name": "Jazz, Funk & Soul Radio",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Jazz, Funk & Soul Radio"
+      ]
+    },
+    {
+      "id": "linn_jazz",
+      "name": "Linn Jazz",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Linn Jazz"
+      ]
+    },
+    {
+      "id": "naim_jazz",
+      "name": "Naim Jazz",
+      "filters": [],
+      "required": false,
+      "aliases": [
+        "Naim Jazz",
+        "Naim Jazz [320k aac]"
+      ]
+    }
+  ]
+}

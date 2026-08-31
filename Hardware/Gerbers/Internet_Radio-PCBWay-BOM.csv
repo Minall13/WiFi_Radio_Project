@@ -1,0 +1,5 @@
+Designator,Quantity,Value,Manufacturer Part Number,Description,Package,Substitution
+J2,1,USB PANEL,B6B-PH-K-S,"6-pin vertical JST-PH connector, 2.00 mm pitch","JST PH 1x06 Vertical","Compatible equivalent permitted; identical pin count, pitch and PCB footprint required"
+J4,1,USB ESP32,B4B-XH-A,"4-pin vertical JST-XH connector, 2.50 mm pitch","JST XH 1x04 Vertical","Compatible equivalent permitted; identical pin count, pitch and PCB footprint required"
+J5,1,POWER SW,B2B-XH-A,"2-pin vertical JST-XH connector, 2.50 mm pitch","JST XH 1x02 Vertical","Compatible equivalent permitted; identical pin count, pitch and PCB footprint required"
+R1 R2,2,5.1k,Generic,"5.1 kOhm resistor, 1%","0603 (1608 metric)","Any reputable equivalent permitted"
