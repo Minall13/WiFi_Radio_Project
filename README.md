@@ -77,6 +77,8 @@ A custom KiCad-designed carrier PCB connects the ESP32-S3, display, audio module
 
 The PCB was designed specifically for the finished radio and manufactured as part of the project.
 
+The proven Rev A PCB can be ordered directly from the [Wi-Fi Radio Project page on PCBWay](https://www.pcbway.com/project/shareproject/Wi_Fi_Radio_Project_ESP32_S3_Main_PCB_076f3c4a.html).
+
 The rear-panel USB-C connection provides both normal 5 V power and access to the ESP32-S3 USB interface, allowing firmware to be uploaded without dismantling the radio.
 
 PCB design files and manufacturing Gerbers are provided in the `Hardware/` directory.
@@ -91,7 +93,7 @@ The enclosure is fully 3D printed and consists of three principal components:
 
 STL files are provided in this repository for slicer-independent printing.
 
-A Bambu Studio 3MF project, including the complete assembly and individual printable components, is available separately through the project's MakerWorld listing.
+A Bambu Studio 3MF project, including the complete assembly and individual printable components, is available on [MakerWorld](https://makerworld.com/en/models/3243705-wi-fi-radio-project#profileId-3675408).
 
 The files are located in:
 
