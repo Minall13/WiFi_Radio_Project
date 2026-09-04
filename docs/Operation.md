@@ -36,9 +36,9 @@ Touch the screen to enter the radio interface.
 
 The radio requires a 2.4 GHz Wi-Fi connection for Internet radio streaming and programme metadata.
 
-Wi-Fi credentials are stored by the ESP32-S3 and are reused automatically at subsequent startups.
+Up to three Wi-Fi networks can be stored. At startup, the radio scans for visible saved networks and attempts to connect in most-recently-used order, allowing it to move between familiar locations without requiring Wi-Fi setup each time.
 
-If the radio does not have valid Wi-Fi credentials, the Wi-Fi configuration system allows a network to be selected and credentials to be entered.
+If no saved network is available, the Wi-Fi configuration system opens the InternetRadio-Setup portal so that a network can be selected and its credentials entered. Newly configured networks are added to the saved list and promoted to most-recently-used status.
 
 Once successfully configured, the radio reconnects to the saved network automatically whenever it is switched on.
 
@@ -110,11 +110,11 @@ The footer contains five controls:
 
 ### Back
 
-Touching **Back** returns to the current Station List.
-
-The audio stream continues playing.
+Touching **Back** returns to the current Station List while the audio stream continues playing.
 
 This allows another station to be selected without first stopping the current one.
+
+While a station is playing, the radio automatically returns to the Player screen after 20 seconds without touchscreen activity. Touching the screen resets this inactivity period, allowing the Station List and other screens to be browsed for as long as required.
 
 ### Stop
 

@@ -1,5 +1,5 @@
 // ============================================================
-// 11_AudioEngine.ino
+// 09_AudioEngine.ino
 // Audio Engine
 // ============================================================
 //
@@ -176,12 +176,17 @@ bool audioPlay(const String& url) {
   Serial.println("========================================");
   Serial.println();
 
+  audioIsPlaying = connected;
+
   return connected;
 }
 
 void audioStop() {
+
   Serial.println("Audio stop");
+
   audio.stopSong();
+  audioIsPlaying = false;
 }
 
 void audioLoop() {

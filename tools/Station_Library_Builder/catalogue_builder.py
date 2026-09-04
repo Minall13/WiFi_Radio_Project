@@ -150,14 +150,15 @@ def write_filter_catalogues(
         ]
 
         station_count = len(matching)
-        page_count = (station_count + CATALOGUE_PAGE_SIZE - 1) // CATALOGUE_PAGE_SIZE
+        page_size = 5 if filter_name == "all" else CATALOGUE_PAGE_SIZE
+        page_count = (station_count + page_size - 1) // page_size
 
         if page_count == 0:
             page_count = 1
 
         for page_index in range(page_count):
-            start = page_index * CATALOGUE_PAGE_SIZE
-            page_stations = matching[start : start + CATALOGUE_PAGE_SIZE]
+            start = page_index * page_size
+            page_stations = matching[start : start + page_size]
 
             write_catalogue_page(
                 filter_name=filter_name,
@@ -172,7 +173,7 @@ def write_filter_catalogues(
             "source": "littlefs",
             "station_count": station_count,
             "page_count": page_count,
-            "page_size": CATALOGUE_PAGE_SIZE,
+            "page_size": page_size,
             "path": f"/catalogues/{filter_name}_%03d.json",
         }
 

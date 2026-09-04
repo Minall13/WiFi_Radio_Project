@@ -618,17 +618,6 @@
       ]
     },
     {
-      "id": "talksport_2",
-      "name": "talkSPORT 2",
-      "filters": [
-        "talk"
-      ],
-      "required": true,
-      "aliases": [
-        "talkSPORT 2"
-      ]
-    },
-    {
       "id": "times_radio",
       "name": "Times Radio",
       "filters": [

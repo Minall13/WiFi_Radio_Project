@@ -1,5 +1,5 @@
 // ============================================================
-// 12_Home.ino
+// 10_Home.ino
 // Home Screen
 // ============================================================
 //
@@ -37,7 +37,7 @@ void drawHomeScreen() {
   uiApplyTypography(TYPE_BODY, theme.textSecondary);
   tft.setTextColor(theme.textPrimary, theme.bg);
   tft.setCursor(55, 60);
-  tft.println("v1.0.0 - Internet Radio");
+  tft.println("v1.0.1 - Internet Radio");
 
     uiApplyTypography(TYPE_BODY, theme.textSecondary);
 

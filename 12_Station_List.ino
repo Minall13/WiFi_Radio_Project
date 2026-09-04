@@ -1,5 +1,5 @@
 // ============================================================
-// 14_Station_List.ino
+// 12_Station_List.ino
 // Station List Screen
 // ============================================================
 //
@@ -23,8 +23,16 @@
 void drawStationsScreen() {
   currentScreen = SCREEN_STATIONS;
 
-  int currentPage = (stationPageStart / STATIONS_PER_PAGE) + 1;
-  int totalPages  = (stationCount + STATIONS_PER_PAGE - 1) / STATIONS_PER_PAGE;
+  int currentPage;
+  int totalPages;
+
+  if (currentStationFilter == 8) {
+    currentPage = allCataloguePage + 1;
+    totalPages = ALL_CATALOGUE_PAGE_COUNT;
+  } else {
+    currentPage = (stationPageStart / STATIONS_PER_PAGE) + 1;
+    totalPages = (stationCount + STATIONS_PER_PAGE - 1) / STATIONS_PER_PAGE;
+  }
 
   setHeader(stationFilters[currentStationFilter],
             "Page " + String(currentPage) + " of " + String(totalPages),

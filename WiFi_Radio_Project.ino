@@ -20,6 +20,7 @@
 #include <WiFiClientSecure.h>
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
+#include <Preferences.h>
 #include <LittleFS.h>
 #include <PNGdec.h>
 
@@ -172,9 +173,16 @@ enum IconSize {
 
 ScreenMode currentScreen = SCREEN_HOME;
 
+bool audioIsPlaying = false;
+
+unsigned long lastUserInteraction = 0;
+const unsigned long PLAYER_RETURN_TIMEOUT_MS = 20000;
+
 String headerTitle  = "";
 String headerCentre = "";
 uint8_t headerStatus = 0;
+int allCataloguePage = 0;
+const int ALL_CATALOGUE_PAGE_COUNT = 14;
 
 // ============================================================
 // Header Status Icons
@@ -326,7 +334,6 @@ unsigned long confirmWiFiResetStart = 0;
 
 // ---------- Initialisation ----------
 void connectWiFi();
-void testRadioBrowser();
 
 // ---------- Audio ----------
 extern String currentStreamTitle;
@@ -403,12 +410,33 @@ void setup() {
   splashStatus("Initialising audio...");
   audioBegin();
 
-  stationProviderLoad("All");
+  Serial.println();
+  Serial.println("HEAP AFTER AUDIO INITIALISATION:");
+  Serial.printf(
+    "Internal free: %u\n",
+    heap_caps_get_free_size(MALLOC_CAP_INTERNAL)
+  );
+  Serial.printf(
+    "Largest block: %u\n",
+    heap_caps_get_largest_free_block(MALLOC_CAP_INTERNAL)
+  );
 
   ts.begin(touchSPI);
+
   ts.setRotation(1);
 
   splashReady();
+
+  Serial.println();
+  Serial.println("HEAP AFTER SPLASH READY:");
+  Serial.printf(
+    "Internal free: %u\n",
+    heap_caps_get_free_size(MALLOC_CAP_INTERNAL)
+  );
+  Serial.printf(
+    "Largest block: %u\n",
+    heap_caps_get_largest_free_block(MALLOC_CAP_INTERNAL)
+  );
 
   Serial.println("Setup complete");
 }

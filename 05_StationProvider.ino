@@ -1,5 +1,5 @@
 // ============================================================
-// 07_StationProvider.ino
+// 05_StationProvider.ino
 // Station Provider
 // ============================================================
 //
@@ -98,14 +98,64 @@ void stationProviderBegin() {
 // Station Loading Router
 // ============================================================
 
+
 bool stationProviderLoad(const String& filterName) {
+
   stationCount = 0;
   stationPageStart = 0;
   selectedStationIndex = -1;
 
-  return loadLittleFSStations(filterName);
+  if (filterName.equalsIgnoreCase("All")) {
+    allCataloguePage = 0;
+  }
+
+  Serial.println();
+  Serial.print("HEAP BEFORE CATALOGUE ");
+  Serial.println(filterName);
+
+  Serial.printf(
+    "Internal free: %u\n",
+    heap_caps_get_free_size(MALLOC_CAP_INTERNAL)
+  );
+
+  Serial.printf(
+    "Largest block: %u\n",
+    heap_caps_get_largest_free_block(MALLOC_CAP_INTERNAL)
+  );
+
+  bool loaded = loadLittleFSStations(filterName);
+
+  Serial.print("HEAP AFTER CATALOGUE ");
+  Serial.println(filterName);
+
+  Serial.printf(
+    "Internal free: %u\n",
+    heap_caps_get_free_size(MALLOC_CAP_INTERNAL)
+  );
+
+  Serial.printf(
+    "Largest block: %u\n",
+    heap_caps_get_largest_free_block(MALLOC_CAP_INTERNAL)
+  );
+
+  return loaded;
 }
 
+bool stationProviderLoadAllPage(int pageNumber) {
+
+  if (
+    pageNumber < 0 ||
+    pageNumber >= ALL_CATALOGUE_PAGE_COUNT
+  ) {
+    return false;
+  }
+
+  allCataloguePage = pageNumber;
+  stationPageStart = 0;
+
+  return loadLittleFSStations("All");
+
+}
 
 // ============================================================
 // LittleFS Station Loader
@@ -122,7 +172,7 @@ bool loadLittleFSStations(const String& filterName) {
     sizeof(path),
     "/catalogues/%s_%03d.json",
     fileFilter.c_str(),
-    0
+    fileFilter == "all" ? allCataloguePage : 0
   );
 
   Serial.print("Loading station catalogue: ");

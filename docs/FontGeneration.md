@@ -46,7 +46,7 @@ The Smooth Font files currently stored with the project are:
 | Roboto38.vlw | 38 pt |
 | Roboto40.vlw | 40 pt |
 
-The active typography mappings are defined in `10_UI_Typography.ino`.
+The active typography mappings are defined in `08_UI_Typography.ino`.
 `Roboto38.vlw` is retained in the font set but is not currently assigned to a UI typography role.
 
 The font files are stored in:
@@ -85,7 +85,7 @@ and renamed using the project's standard naming convention.
 
 Application code should never reference a specific font family.
 
-All text rendering is performed through the Typography module (`10_UI_Typography.ino`) using semantic roles such as:
+All text rendering is performed through the Typography module (`08_UI_Typography.ino`) using semantic roles such as:
 
 * Header
 * Section

@@ -1,5 +1,5 @@
 // ============================================================
-// 06_Player.ino
+// 04_Player.ino
 // Player Screen
 // ============================================================
 //
@@ -43,9 +43,12 @@ const int PLAYER_LOGO_Y = 60;
 // ============================================================
 
 const int PLAYER_TEXT_X = 25;
-const int PLAYER_TEXT_Y = 94;
+const int PLAYER_TEXT_Y = 82;
 const int PLAYER_TEXT_GAP = 5;
 const int PLAYER_TEXT_LINE_HEIGHT = 32;
+const int PLAYER_METADATA_Y = 151;
+const int PLAYER_METADATA_LINE_HEIGHT = 28;
+const int PLAYER_METADATA_SECTION_GAP = 0;
 
 // ============================================================
 // Player Screen - Main
@@ -261,7 +264,7 @@ void drawPlayerStreamTitle(const String& streamTitle) {
     theme.bg
   );
 
-  int currentY = 167;
+  int currentY = PLAYER_METADATA_Y;
 
   for (int i = 0; i < 2; i++) {
     if (artistLines[i].length() == 0) {
@@ -275,8 +278,10 @@ void drawPlayerStreamTitle(const String& streamTitle) {
 
     tft.print(artistLines[i]);
 
-    currentY += lineHeight;
+    currentY += PLAYER_METADATA_LINE_HEIGHT;
   }
+
+  currentY += PLAYER_METADATA_SECTION_GAP;
 
   tft.setTextColor(
     TFT_CYAN,
@@ -295,7 +300,7 @@ void drawPlayerStreamTitle(const String& streamTitle) {
 
     tft.print(trackLines[i]);
 
-    currentY += lineHeight;
+    currentY += PLAYER_METADATA_LINE_HEIGHT;
   }
 }
 
@@ -308,9 +313,9 @@ void drawPlayerMetadataArea() {
 
   tft.fillRect(
     PLAYER_TEXT_X,
-    162,
+    148,
     PLAYER_LOGO_X - PLAYER_TEXT_X - PLAYER_TEXT_GAP,
-    83,
+    117,
     theme.bg
   );
 
@@ -372,8 +377,13 @@ void drawPlayerScreen() {
   if (
     selectedStationIndex >= 0 &&
     selectedStationIndex < stationCount &&
-    stations[selectedStationIndex].metadataService.length() > 0 &&
-    currentBBCProgramme.length() > 0
+    (
+      currentStreamTitle.length() > 0 ||
+      (
+        stations[selectedStationIndex].metadataService.length() > 0 &&
+        currentBBCProgramme.length() > 0
+      )
+    )
   ) {
     drawPlayerMetadataArea();
   }

@@ -1,11 +1,11 @@
 {
-  "catalogue_version": "2026-07-26",
-  "build_timestamp": "2026-07-26T14:04:09Z",
+  "catalogue_version": "2026-09-04",
+  "build_timestamp": "2026-09-04T12:51:37Z",
   "tool_version": "1.0.2",
   "country": "GB",
   "source": "Radio Browser",
   "bbc_separate": true,
-  "station_count": 79,
+  "station_count": 78,
   "stations": [
     {
       "id": "absolute_radio",
@@ -21,7 +21,7 @@
       "state": "",
       "tags": "adult contemporary",
       "stationuuid": "942218e4-32f2-4131-8a73-e3432a8cf4d0",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "absolute_radio_10s",
@@ -31,13 +31,13 @@
       ],
       "url": "https://stream-ar.hellorayo.co.uk/absolute10s.aac?direct=true&aw_0_1st.skey=1602676850&aw_0_awz.listenerid=~LSID~&aw_0_1st.platform=~PLATFORM~&aw_0_1st.playerid=~PLAYER_ID~&aw_0_awz.appVers=~APPVERSION~&aw_0_1st.bauer_preroll=~REQUEST_PREROLL~&aw_0_1st.in_car=~IN_CAR~&lat=~LAT~&lon=~LONG~&aw_0_req.userConsentV2=~TCSTRING~&=&&___cb=850509090209086",
       "codec": "AAC+",
-      "bitrate": 48,
+      "bitrate": 47,
       "homepage": "https://radioplayer.planetradio.co.uk/ab1",
       "favicon": "https://radioplayer.planetradio.co.uk/assets/favicon.png",
       "state": "",
       "tags": "10s,pop",
       "stationuuid": "18853cb8-0c81-4bb8-959c-545c115af7d7",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "absolute_radio_80s",
@@ -47,13 +47,13 @@
       ],
       "url": "https://stream-ar.hellorayo.co.uk/absolute80shigh.aac?aw_0_1st.skey=1602676850&direct=true&rp_source=1",
       "codec": "AAC",
-      "bitrate": 128,
+      "bitrate": 127,
       "homepage": "https://www.hellorayo.co.uk/absolute-80s",
       "favicon": "https://media.bauerradio.com/image/upload/c_crop,g_custom/v1717682143/brand_manager/stations/d8fpii0yfv7fimdhxqp1.png",
       "state": "West Midlands",
       "tags": "80s",
       "stationuuid": "c6c204d3-3ffd-4e85-b0f9-29bf6de7ddf4",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "absolute_radio_90s",
@@ -69,7 +69,7 @@
       "state": "",
       "tags": "90s radio",
       "stationuuid": "7f7e3c30-08f0-4f52-a0a0-653d5a184800",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "boom_radio",
@@ -83,7 +83,7 @@
       "state": "",
       "tags": "oldies",
       "stationuuid": "695da448-1840-4e4f-adda-57d699900b58",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "boom_radio_light",
@@ -97,7 +97,7 @@
       "state": "England",
       "tags": "1960s and 1970s",
       "stationuuid": "a1ff2aae-36dc-4941-b2bd-effae7fa9a94",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "capital",
@@ -113,7 +113,7 @@
       "state": "",
       "tags": "",
       "stationuuid": "038bfc04-cebb-4fc7-ac13-823b83c8a9d9",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "capital_anthems",
@@ -129,7 +129,7 @@
       "state": "London",
       "tags": "capital,dance,england,europe,global radio,london,moi merino,music,pop,pop music,pop rock,radio,uk,united kingdom,youth",
       "stationuuid": "72ad8536-729c-41db-828a-48c0c03dc44a",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "capital_chill",
@@ -145,7 +145,7 @@
       "state": "",
       "tags": "chill,chilled",
       "stationuuid": "dfaf9dd9-6705-494d-bf96-ce7fbdbba021",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "capital_dance",
@@ -161,7 +161,7 @@
       "state": "",
       "tags": "",
       "stationuuid": "df3607fb-311d-43b1-bd0c-98d91a4f2df4",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "capital_xtra",
@@ -177,7 +177,7 @@
       "state": "",
       "tags": "",
       "stationuuid": "11d4d77d-603c-43b5-b9a3-9f7deb75c8da",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "capital_xtra_reloaded",
@@ -193,7 +193,7 @@
       "state": "",
       "tags": "non-stop old skool & anthems",
       "stationuuid": "10ceb226-550d-41ce-84e9-df7f33729c84",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "classic_fm",
@@ -207,7 +207,7 @@
       "state": "London",
       "tags": "classical",
       "stationuuid": "96063f25-0601-11e8-ae97-52543be04c81",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "classic_fm_calm",
@@ -221,7 +221,7 @@
       "state": "",
       "tags": "classical,romantic",
       "stationuuid": "2babf29a-811c-4a51-93c3-9f3531ef2e97",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "classic_fm_hall_of_fame",
@@ -235,7 +235,7 @@
       "state": "",
       "tags": "classical",
       "stationuuid": "2862466b-e997-4bc1-95d2-2ba51972a8ae",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "classic_fm_movies",
@@ -249,7 +249,7 @@
       "state": "",
       "tags": "classical,film score,movies",
       "stationuuid": "7cc0c486-92cb-4509-9b93-775e41950ed3",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "classic_fm_relax",
@@ -263,7 +263,7 @@
       "state": "AAC",
       "tags": "",
       "stationuuid": "ba093e53-c020-484b-a6a6-b184e7382744",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "gb_news",
@@ -279,7 +279,7 @@
       "state": "",
       "tags": "news,speech,talk",
       "stationuuid": "fec7847c-b936-4bb3-a4c0-610db9b66c93",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "greatest_hits_radio",
@@ -287,13 +287,13 @@
       "filters": [],
       "url": "https://stream-mz.hellorayo.co.uk/net2westmidlands.aac?aw_0_1st.skey=1602676850&direct=true&rp_source=1",
       "codec": "AAC+",
-      "bitrate": 48,
+      "bitrate": 47,
       "homepage": "https://www.hellorayo.co.uk/greatest-hits/west-midlands",
       "favicon": "https://assets.planetradio.co.uk/img/ConfigWebHeaderLogoSVGImageUrl/381.svg?ver=1545132394",
       "state": "West Midlands",
       "tags": "",
       "stationuuid": "1bfae443-4fa5-45ed-92a5-8aecd6a70756",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "greatest_hits_radio_60s",
@@ -307,7 +307,7 @@
       "state": "West Midlands",
       "tags": "greatest hits",
       "stationuuid": "b2ad284d-bef1-4f68-8bbd-14195092ea5f",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "greatest_hits_radio_70s",
@@ -321,7 +321,7 @@
       "state": "West Midlands",
       "tags": "70s",
       "stationuuid": "4c6d43e7-b474-440f-be56-d899dd0e757e",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "greatest_hits_radio_80s",
@@ -329,13 +329,13 @@
       "filters": [],
       "url": "https://stream-al.hellorayo.co.uk/ghr80s.aac?aw_0_1st.skey=1602676850&direct=true&rp_source=1",
       "codec": "AAC+",
-      "bitrate": 47,
+      "bitrate": 48,
       "homepage": "https://www.hellorayo.co.uk/greatest-hits-radio-80s",
       "favicon": "https://media.bauerradio.com/image/upload/c_crop,g_custom/v1741162714/brand_manager/stations/tmeuw7bt9gwnbkuxpjab.png",
       "state": "West Midlands",
       "tags": "80s,greatest hits",
       "stationuuid": "4cb7a690-b0cc-4259-8aac-4674c69da10e",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "heart",
@@ -351,7 +351,7 @@
       "state": "London",
       "tags": "",
       "stationuuid": "42679ed6-49cb-428e-9b74-94af62ad8a0a",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "heart_00s",
@@ -367,7 +367,7 @@
       "state": "",
       "tags": "pop",
       "stationuuid": "ea5d9964-6b60-4f75-a95d-2bc5217d245b",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "heart_10s",
@@ -383,7 +383,7 @@
       "state": "",
       "tags": "10s,2010s,adult contemporary",
       "stationuuid": "f45705b5-0410-46a7-bf0e-cbb83d4315d2",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "heart_70s",
@@ -399,7 +399,7 @@
       "state": "",
       "tags": "70s,national,pop,public radio,variety",
       "stationuuid": "e7205cd4-dc30-11e9-a8ba-52543be04c81",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "heart_80s",
@@ -415,7 +415,7 @@
       "state": "",
       "tags": "80s,national,pop,public radio,variety",
       "stationuuid": "c4077677-dc2f-11e9-a8ba-52543be04c81",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "heart_90s",
@@ -431,7 +431,7 @@
       "state": "",
       "tags": "90s,national,pop,public radio,variety",
       "stationuuid": "52bb00fe-dc31-11e9-a8ba-52543be04c81",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "heart_dance",
@@ -447,7 +447,7 @@
       "state": "",
       "tags": "dance,national,pop,public radio,variety",
       "stationuuid": "fa76f16f-dc31-11e9-a8ba-52543be04c81",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "jazz_london_radio",
@@ -461,7 +461,7 @@
       "state": "",
       "tags": "jazz",
       "stationuuid": "a7d816c2-722f-4060-907d-b4c796482d87",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "jazz_funk_soul_radio",
@@ -475,7 +475,7 @@
       "state": "",
       "tags": "",
       "stationuuid": "c4495e0f-9641-4846-9676-10fecbdd13a3",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "jfsr",
@@ -489,7 +489,7 @@
       "state": "",
       "tags": "funk,jazz,soul",
       "stationuuid": "e392aeac-2fb8-4f34-9543-6f4c8209d3a7",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "kerrang_radio",
@@ -505,7 +505,7 @@
       "state": "",
       "tags": "",
       "stationuuid": "6c747331-3129-4e21-b620-3153f1a360e3",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "kiss",
@@ -521,7 +521,7 @@
       "state": "",
       "tags": "bauer radio,kiss,kiss fm,pop",
       "stationuuid": "5984167a-b25e-4eec-a878-ff9253ee0c4a",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "kiss_dance",
@@ -531,13 +531,13 @@
       ],
       "url": "https://stream-kiss.hellorayo.co.uk/kissdance.aac?direct=true&aw_0_1st.skey=1602676850&rp_source=1&=&&___cb=60456375243858",
       "codec": "AAC",
-      "bitrate": 127,
+      "bitrate": 128,
       "homepage": "https://www.hellorayo.co.uk/kiss-dance",
       "favicon": "https://cdn-profiles.tunein.com/s321341/images/logod.png",
       "state": "London",
       "tags": "anthems,bauer radio,club dance,dab,dab+,dance,dance anthems,dance music,edm,electronic dance music,england,entertainment,europe,kiss,kiss dance,london,moi merino,radio,rayo,uk,united kingdom",
       "stationuuid": "9c8f6141-f8e8-4779-bfed-5a79e14ed4dd",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "kiss_xtra",
@@ -547,13 +547,13 @@
       ],
       "url": "https://live-bauerkiss.sharp-stream.com/kissfresh.aac?direct=true&aw_0_1st.skey=1602676850&rp_source=1&=&&___cb=60456375243858",
       "codec": "AAC+",
-      "bitrate": 47,
+      "bitrate": 48,
       "homepage": "https://www.hellorayo.co.uk/kiss-xtra",
       "favicon": "https://cdn-profiles.tunein.com/s198663/images/logod.png",
       "state": "London",
       "tags": "bauer radio,contemporary r&b,dab,digital radio,england,entertainment,europe,hip hop,hip-hop,hiphop,kiss,kiss fm,kiss xtra,london,moi merino,r&b,r&b music,radio,rayo,uk,united kingdom",
       "stationuuid": "abb48ea5-7aaf-460c-bf04-7fe3b7f10bb7",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "kisstory",
@@ -569,7 +569,7 @@
       "state": "",
       "tags": "dance classics,rnb classics",
       "stationuuid": "6498b905-d629-40b3-89f0-6561c1129f99",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "kisstory_rnb",
@@ -585,7 +585,7 @@
       "state": "London",
       "tags": "anthems,bauer radio,black music,classics,england,europe,kiss,kiss fm,london,moi merino,music,r&b music,radio,rayo,rnb classics,uk,united kingdom",
       "stationuuid": "19b250fe-9027-4caf-b6ea-33022f0b6392",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "lbc",
@@ -601,7 +601,7 @@
       "state": "",
       "tags": "political talk",
       "stationuuid": "9614bbb6-0601-11e8-ae97-52543be04c81",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "lbc_news",
@@ -617,7 +617,7 @@
       "state": "",
       "tags": "london,news,uk",
       "stationuuid": "8e32c763-b926-4e57-9b8f-d60f1c5b48e3",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "linn_jazz",
@@ -631,7 +631,7 @@
       "state": "",
       "tags": "jazz",
       "stationuuid": "73490696-3343-4fa2-8045-b8d11e3bb0fb",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "magic_classical",
@@ -645,7 +645,7 @@
       "state": "",
       "tags": "classical music",
       "stationuuid": "d18943f2-7c18-4e1d-8cf2-9ce1c5616f86",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "magic_musicals",
@@ -659,7 +659,7 @@
       "state": "",
       "tags": "musical theatre,musicals",
       "stationuuid": "c619387c-8cf8-4d34-814e-396818bbd030",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "magic_radio",
@@ -673,7 +673,7 @@
       "state": "",
       "tags": "00s,70s,80s,90s,adult,adult hits,calm,classic hits,london,pop",
       "stationuuid": "172d8c95-fecd-40b7-af6f-9cdf4e8829e4",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "magic_soul",
@@ -681,13 +681,13 @@
       "filters": [],
       "url": "http://edge-bauermz-03-gos2.sharp-stream.com/magicsoul.aac?aw_0_1st.skey=1602676850",
       "codec": "AAC+",
-      "bitrate": 47,
+      "bitrate": 48,
       "homepage": "https://www.hellorayo.co.uk/magic-soul",
       "favicon": "https://media.bauerradio.com/image/upload/c_crop,g_custom/v1747286935/brand_manager/stations/whlfhozmobazoyrxj6od.jpg",
       "state": "",
       "tags": "r&b soul,soul",
       "stationuuid": "5b1ad787-599a-4eaf-9f24-2aba2f94b688",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "naim_jazz",
@@ -701,7 +701,7 @@
       "state": "",
       "tags": "",
       "stationuuid": "7b6de1b4-ec9e-4598-9409-2a2f03c48cb7",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "nation_radio",
@@ -715,7 +715,7 @@
       "state": "",
       "tags": "",
       "stationuuid": "f20a9fb9-c9ec-4b8f-a014-311f892bf554",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "nation_radio_80s",
@@ -729,7 +729,7 @@
       "state": "",
       "tags": "80s,80s hits,classic hits,oldies",
       "stationuuid": "240598b5-5c8a-4fd0-afbb-e9e3ac130ec0",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "nation_radio_scotland",
@@ -743,7 +743,7 @@
       "state": "Scotland",
       "tags": "",
       "stationuuid": "a0dc8001-a079-404c-ade3-87b5dc0ecc09",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "nation_radio_wales",
@@ -751,13 +751,13 @@
       "filters": [],
       "url": "https://edge-ads-05-gos2.sharp-stream.com/tcnationi.aac",
       "codec": "AAC+",
-      "bitrate": 48,
+      "bitrate": 47,
       "homepage": "https://nationradio.wales/",
       "favicon": "",
       "state": "Wales",
       "tags": "contemporary",
       "stationuuid": "9826efd7-b7bc-4469-926f-3dde50bb0bb5",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "news_radio_uk",
@@ -773,7 +773,7 @@
       "state": "",
       "tags": "information,news,talk",
       "stationuuid": "a0d298f1-ecfb-4faf-9fe0-5c59d9824131",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "planet_rock",
@@ -783,13 +783,13 @@
       ],
       "url": "https://stream-mz.hellorayo.co.uk/planetrock.aac?direct=true&aw_0_1st.playerid=BMUK_Airable&aw_0_1st.skey=6778249992",
       "codec": "AAC+",
-      "bitrate": 47,
+      "bitrate": 48,
       "homepage": "https://www.hellorayo.co.uk/planet-rock",
       "favicon": "https://cdn-profiles.tunein.com/s2377/images/logod.png",
       "state": "London",
       "tags": "bauer radio,classic rock,dab,digital radio,england,europe,hard rock,heavy rock,london,moi merino,music,planet rock,radio,rock,rock music,uk,united kingdom",
       "stationuuid": "dec031e0-4419-45d2-9f3e-76e91d876c40",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "radio_x",
@@ -805,7 +805,7 @@
       "state": "",
       "tags": "",
       "stationuuid": "fc057e27-07f1-4556-bd31-bceb31d5eabd",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "radio_x_00s",
@@ -821,7 +821,7 @@
       "state": "",
       "tags": "00s,2000s,alternative,indie rock",
       "stationuuid": "1406b2e7-76db-4b1e-890a-af7a76f839e5",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "radio_x_90s",
@@ -837,7 +837,7 @@
       "state": "",
       "tags": "90s,alternative,indie rock",
       "stationuuid": "bf8c3fd8-80bb-46f3-929b-effac0a1c31f",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "radio_x_chilled",
@@ -853,7 +853,7 @@
       "state": "",
       "tags": "alternative,chilled,indie rock",
       "stationuuid": "c58bbc71-ad5d-4b92-bb4b-dd85e9d3c411",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "radio_x_classic_rock",
@@ -869,7 +869,7 @@
       "state": "",
       "tags": "classic rock,rock",
       "stationuuid": "83bb028f-9cd6-489d-a9e0-6dc0821a071b",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "smooth_80s",
@@ -883,7 +883,7 @@
       "state": "",
       "tags": "80s",
       "stationuuid": "96568036-4928-44ba-a54e-c4db0b5463f2",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "smooth_chill",
@@ -897,7 +897,7 @@
       "state": "",
       "tags": "chillout,national,public radio,smooth,variety",
       "stationuuid": "478fd7f4-dc36-11e9-a8ba-52543be04c81",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "smooth_country",
@@ -911,7 +911,7 @@
       "state": "",
       "tags": "",
       "stationuuid": "d56668c1-6bc5-43c0-a963-b3193886d17d",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "smooth_radio",
@@ -925,7 +925,7 @@
       "state": "",
       "tags": "adult contemporary,middle of the road",
       "stationuuid": "f468711f-a403-11e8-abb8-52543be04c81",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "smooth_relax",
@@ -939,7 +939,7 @@
       "state": "",
       "tags": "easy listening,relaxing",
       "stationuuid": "15a7162c-45a3-4bde-b864-aa7731c6dd87",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "smooth_soul",
@@ -953,7 +953,7 @@
       "state": "",
       "tags": "motown,soul",
       "stationuuid": "866980e7-2ffb-4c3c-9bef-1195fb6f29d8",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "talksport",
@@ -962,30 +962,14 @@
         "talk"
       ],
       "url": "https://radio.talksport.com/stream",
-      "codec": "MP3",
-      "bitrate": 64,
+      "codec": "AAC",
+      "bitrate": 63,
       "homepage": "",
       "favicon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAcdmwRcs4FcWk_OQqxq4EyZH5YA7ixM2dvQ&usqp=CAU",
       "state": "",
       "tags": "news",
       "stationuuid": "9f5d0645-ae1e-4e9f-9b2f-91fa63d5b1fa",
-      "logo": "/logos/default_station.png"
-    },
-    {
-      "id": "talksport_2",
-      "name": "talkSPORT 2",
-      "filters": [
-        "talk"
-      ],
-      "url": "http://radio.talksport.com/stream2",
-      "codec": "MP3",
-      "bitrate": 128,
-      "homepage": "http://talksport.com/",
-      "favicon": "http://cdn-radiotime-logos.tunein.com/s265443d.png",
-      "state": "",
-      "tags": "sports,talk",
-      "stationuuid": "214acfc8-905b-4168-9476-5f682f85db6a",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "times_radio",
@@ -1001,7 +985,7 @@
       "state": "",
       "tags": "news,talk",
       "stationuuid": "9a8f2d50-fca3-4d7c-99ee-c5e0e97f4d1b",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "virgin_radio_anthems",
@@ -1010,14 +994,14 @@
         "virgin"
       ],
       "url": "https://radio.virginradio.co.uk/stream-anthems",
-      "codec": "AAC",
-      "bitrate": 128,
+      "codec": "MP3",
+      "bitrate": 0,
       "homepage": "https://virginradio.co.uk/",
       "favicon": "",
       "state": "",
       "tags": "anthems,national",
       "stationuuid": "1a1ef3a9-0f99-11ea-a87e-52543be04c81",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "virgin_radio_chilled",
@@ -1026,14 +1010,14 @@
         "virgin"
       ],
       "url": "https://radio.virginradio.co.uk/stream-chilled",
-      "codec": "AAC",
-      "bitrate": 127,
+      "codec": "MP3",
+      "bitrate": 0,
       "homepage": "https://virginradio.co.uk/",
       "favicon": "",
       "state": "",
       "tags": "chill,chilled,chillout,national",
       "stationuuid": "6d12f64e-0f99-11ea-a87e-52543be04c81",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     },
     {
       "id": "virgin_radio_uk",
@@ -1042,14 +1026,14 @@
         "virgin"
       ],
       "url": "https://radio.virginradio.co.uk/stream",
-      "codec": "AAC",
-      "bitrate": 128,
+      "codec": "MP3",
+      "bitrate": 0,
       "homepage": "https://virginradio.co.uk/",
       "favicon": "https://www.celsoazevedo.com/files/2022/virgin-radio-uk.jpg",
       "state": "London, England",
       "tags": "00s,80s,90s,information,news,pop,pop rock",
       "stationuuid": "7d196930-5f3d-45e2-b11a-d261c4515161",
-      "logo": "/logos/default_station.png"
+      "logo":"/logos/default_station.png"
     }
   ]
 }

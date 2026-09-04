@@ -232,11 +232,11 @@ The project was developed and tested using the specific hardware listed in the B
 
 ## Project Status
 
-**Version 1.0.0**
+**Version 1.0.1**
 
 The Wi-Fi Radio Project has reached its first complete hardware and software release.
 
-The v1.0.0 system includes:
+The v1.0.1 system includes:
 
 - completed touchscreen user interface;
 - curated UK station library;

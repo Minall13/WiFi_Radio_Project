@@ -1,5 +1,5 @@
 // ============================================================
-// 03_Touch_Input.ino
+// 02_Touch_Input.ino
 // Touch Input Handling
 // ============================================================
 //
@@ -432,15 +432,29 @@ bool handleStationListTouch(int screenX, int screenY) {
       true
     );
 
-    stationPageStart -= STATIONS_PER_PAGE;
+    if (currentStationFilter == 8) {
 
-    if (stationPageStart < 0) {
-      int lastPageStart =
-        ((stationCount - 1) /
-         STATIONS_PER_PAGE) *
-        STATIONS_PER_PAGE;
+      int previousPage = allCataloguePage - 1;
 
-      stationPageStart = lastPageStart;
+      if (previousPage < 0) {
+        previousPage = ALL_CATALOGUE_PAGE_COUNT - 1;
+      }
+
+      stationProviderLoadAllPage(previousPage);
+
+    } else {
+
+      stationPageStart -= STATIONS_PER_PAGE;
+
+      if (stationPageStart < 0) {
+        int lastPageStart =
+          ((stationCount - 1) /
+          STATIONS_PER_PAGE) *
+          STATIONS_PER_PAGE;
+
+        stationPageStart = lastPageStart;
+      }
+
     }
 
     drawStationsScreen();
@@ -468,10 +482,24 @@ bool handleStationListTouch(int screenX, int screenY) {
       false
     );
 
-    stationPageStart += STATIONS_PER_PAGE;
+    if (currentStationFilter == 8) {
 
-    if (stationPageStart >= stationCount) {
-      stationPageStart = 0;
+      int nextPage = allCataloguePage + 1;
+
+      if (nextPage >= ALL_CATALOGUE_PAGE_COUNT) {
+        nextPage = 0;
+      }
+
+      stationProviderLoadAllPage(nextPage);
+
+    } else {
+
+      stationPageStart += STATIONS_PER_PAGE;
+
+      if (stationPageStart >= stationCount) {
+        stationPageStart = 0;
+      }
+
     }
 
     drawStationsScreen();
@@ -718,6 +746,8 @@ void loop() {
 
   if (ts.touched()) {
 
+    lastUserInteraction = millis();
+
     TS_Point p = ts.getPoint();
 
     int screenX =
@@ -867,6 +897,21 @@ void loop() {
     showMessage(
       wifiStatus.c_str()
     );
+  }
+
+  // ----------------------------------------------------------
+  // Automatic Return to Player
+  // ----------------------------------------------------------
+
+  if (
+    audioIsPlaying &&
+    currentScreen != SCREEN_PLAYER &&
+    millis() - lastUserInteraction >= PLAYER_RETURN_TIMEOUT_MS
+  ) {
+
+    drawPlayerScreen();
+
+    lastUserInteraction = millis();
   }
 
   // ----------------------------------------------------------

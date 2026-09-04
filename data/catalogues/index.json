@@ -1,6 +1,6 @@
 {
-  "catalogue_version": "2026-07-26",
-  "build_timestamp": "2026-07-26T14:04:09Z",
+  "catalogue_version": "2026-09-04",
+  "build_timestamp": "2026-09-04T12:51:37Z",
   "tool_version": "1.0.2",
   "country": "GB",
   "page_size": 80,
@@ -64,7 +64,7 @@
     "talk": {
       "label": "Talk",
       "source": "littlefs",
-      "station_count": 8,
+      "station_count": 7,
       "page_count": 1,
       "page_size": 80,
       "path": "/catalogues/talk_%03d.json"
@@ -72,9 +72,9 @@
     "all": {
       "label": "All",
       "source": "littlefs",
-      "station_count": 69,
-      "page_count": 1,
-      "page_size": 80,
+      "station_count": 68,
+      "page_count": 14,
+      "page_size": 5,
       "path": "/catalogues/all_%03d.json"
     }
   }

@@ -13,7 +13,7 @@ It assumes that the hardware has already been assembled and that the repository 
 The original project uses:
 
 - ESP32-S3 DevKitC-1 N16R8;
-- 4-inch 480 × 320 ST7789 TFT display;
+- 4-inch 480 × 320 TFT display (ILI9488-labelled module, operated using the TFT_eSPI ILI9481 driver);
 - XPT2046 resistive touchscreen;
 - 2 × MAX98357A I²S amplifier modules;
 - 2 × 3 W / 4 Ω speakers;

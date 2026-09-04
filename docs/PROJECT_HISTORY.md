@@ -645,3 +645,43 @@ This included:
 ### Status
 
 PASS — Internet Radio v1.0.0 completed and validated.
+
+---
+
+## v1.0.1 – Reliability and Usability Refinement
+
+### Wi-Fi
+
+* Added storage for up to three Wi-Fi networks
+* Added visible-network scanning at startup
+* Saved networks are attempted in most-recently-used order
+* Reduced connection delay when moving between known networks
+* Wi-Fi reset now clears both WiFiManager credentials and the saved network list
+
+### Station Catalogue and Streaming
+
+* Changed the All-stations catalogue to load in pages of up to five stations
+* Reduced internal heap usage and fragmentation during station browsing
+* Improved reliability when connecting to HTTPS/TLS audio streams
+* Refreshed the curated station catalogue
+* Removed the obsolete talkSPORT 2 stream
+
+### Player
+
+* Refined Player metadata layout and clearing behaviour
+* Improved handling of longer artist and track information
+* Added automatic return to the Player after 20 seconds of touchscreen inactivity while playback remains active
+* Preserved current commercial-station metadata when returning to the Player
+* Preserved BBC programme metadata when returning to the Player
+
+### Maintenance
+
+* Removed obsolete RadioBrowser test and debug modules
+* Renumbered firmware modules while preserving compilation order
+* Retained useful heap, catalogue and audio connection diagnostics
+* Corrected display hardware documentation
+* Updated Wi-Fi, Player and typography documentation
+
+### Status
+
+PASS — v1.0.1 firmware refinements implemented, compiled and validated on the completed radio.
